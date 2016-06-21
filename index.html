@@ -14,12 +14,12 @@
  
   <!-- Header -->
   <header>
-      <div class="main-heading">
+      <div class="main-heading center-uppercase">
           <h1>David Bowie</h1>
-          <span class="header-symbol">&</span>
+          <span class="header-symbol text-center">&</span>
           <h1>Prince</h1>
       </div>
-      <h2>Legends Never Die</h2>
+      <h2 class="center-uppercase">Legends Never Die</h2>
       
       <img class="hero" src="images/header-image.png" alt="Prince & Bowie Crossover">
   </header>
@@ -42,11 +42,17 @@
   
   <!-- About -->
   <main>
-      <h3 class="about-header">Click the symbols above to learn more.</h3>
+      <div class="test"></div>
+      <div class="heading-bg">
+          <h3 class="about-header center-uppercase">Click the symbols above to learn more.</h3>
+      </div>
+      <div class="test"></div>
       <!-- About Bowie -->
-      <section id="about-bowie">
+      <section class="container" id="about-bowie">
           <img src="images/bowie.jpg" alt="About David Bowie">
-          <h3>About David Bowie</h3>
+          <div class="bowie-divider"></div>
+          <h3 class="text-uppercase">About David Bowie</h3>
+          <div class="bowie-divider"></div>
           
           <!-- Bowie Timeline -->
           <div class="timeline">
@@ -87,12 +93,14 @@
       </section>
       
       <!-- About Prince -->
-      <section id="about-prince">
+      <section class="container" id="about-prince">
           <img src="images/prince.jpg" alt="About Prince">
-          <h3>About Prince</h3>
+          <div class="prince-divider"></div>
+          <h3 class="text-uppercase">About Prince</h3>
+          <div class="prince-divider"></div>
           
           <!-- Prince Timeline -->
-          <div class="timeline">
+          <div class="timeline"> 
               <ul>
                   <li>
                       <h4>Jun 7th 1985</h4>
@@ -132,7 +140,8 @@
   
   <!-- Footer -->
   <footer>
-      <p>Designed and coded by <a href="http://tjbear.github.io">TJ Bear</a>.</p>
+     <div class="test"></div>
+      <p class="text-center">Designed and coded by <a href="http://tjbear.github.io">TJ Bear</a>.</p>
   </footer>
    
     <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
