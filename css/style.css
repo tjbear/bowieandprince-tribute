@@ -1,0 +1,124 @@
+/**********
+#GLOBAL
+**********/
+
+/* Flexible viewport fix for IE10 */
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Domine', serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000;
+}
+
+img { max-width: 100%; }
+
+
+
+/**********
+#HEADER
+**********/
+
+.main-heading h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.main-heading h1:first-child {
+    margin-top: 1.5rem;
+}
+
+.header-symbol {
+    font-size: 6rem;
+    display: block;
+    text-align: center;
+    line-height: .4;
+    opacity: .5;
+}
+
+header h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .5;
+    margin: 1.7rem 0 2.2rem 0;
+}
+
+
+
+/**********
+#NAVIGATION
+**********/
+
+nav {
+    margin-top: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 294.078px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 65px;
+    margin: 0 2.5em 0 2.5em;
+}
+
+
+#about-bowie,
+#about-prince {
+    display: none;
+}
+
+
+
+/**********
+#MAIN
+**********/
+
+.about-header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/**********
+#FOOTER
+**********/
+
+footer {
+    margin-top: 4em;
+}
+
+footer p {
+    text-align: center;
+    opacity: .7;
+}
+
+
+footer p a {
+    font-weight: 700;
+    opacity: 1;
+    text-decoration: none;
+}
+

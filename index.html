@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
     <title>David Bowie & Prince Tribute</title>
     
     <link rel="stylesheet" href="css/normalize.css">
@@ -13,10 +14,14 @@
  
   <!-- Header -->
   <header>
-      <h1>David Bowie & Prince</h1>
+      <div class="main-heading">
+          <h1>David Bowie</h1>
+          <span class="header-symbol">&</span>
+          <h1>Prince</h1>
+      </div>
       <h2>Legends Never Die</h2>
       
-      <img src="images/header-image.png" alt="Prince & Bowie Crossover">
+      <img class="hero" src="images/header-image.png" alt="Prince & Bowie Crossover">
   </header>
   
   <!-- Navigation -->
@@ -24,23 +29,22 @@
       <ul>
           <li>
               <a href="#">
-                  <img src="images/bowie-symbol.png" alt="David Bowie Symbol">
+                  <img class="nav-img" src="images/bowie-symbol.png" alt="David Bowie Symbol">
               </a>
           </li>
           <li>
               <a href="#">
-                  <img src="images/prince-symbol.png" alt="Prince Symbol">
+                  <img class="nav-img" src="images/prince-symbol.png" alt="Prince Symbol">
               </a>
           </li>
       </ul>
-      
-      <h3>Click the symbols above to learn more.</h3>
   </nav>
   
   <!-- About -->
   <main>
+      <h3 class="about-header">Click the symbols above to learn more.</h3>
       <!-- About Bowie -->
-      <section>
+      <section id="about-bowie">
           <img src="images/bowie.jpg" alt="About David Bowie">
           <h3>About David Bowie</h3>
           
@@ -83,7 +87,7 @@
       </section>
       
       <!-- About Prince -->
-      <section>
+      <section id="about-prince">
           <img src="images/prince.jpg" alt="About Prince">
           <h3>About Prince</h3>
           
