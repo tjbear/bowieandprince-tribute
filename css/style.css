@@ -134,6 +134,11 @@ nav {
       display: inline-block;
       width: 65px;
       margin: 0 2.5em 0 2.5em; }
+  nav img {
+    padding-top: 1em;
+    border-top: 4px solid #000; }
+    nav img:hover {
+      cursor: pointer; }
 
 /**********
 #MAIN
