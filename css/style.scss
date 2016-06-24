@@ -128,7 +128,7 @@ nav {
     padding: 1em;
 }
 
-.container {
+.about { 
     margin: 2em 1em 0 1em;
         h3 {
             font-family: $secondary-font;
@@ -183,13 +183,8 @@ footer {
         }
 }
 
+/**********
+#RESPONSIVE
+**********/
 
-
-/* 
-.container,
-section,
-#about-bowie,
-#about-prince {
-    display: none; 
-}
-*/
+@import 'responsive'; 
